@@ -1,22 +1,19 @@
-body {
+body{
   margin: 0px;
-  color: white;
-  font-family: "Muli", sans-serif;
+  color:white;
+  font-family: 'Muli', sans-serif;
 }
-
-header {
-  width: 100%;
+header{
+  width:100%;
   height: 80px;
   background-color: #AB88FF;
 }
-
-header img {
+header img{
   width: 200px;
   margin-top: 10px;
   margin-left: 10px;
 }
-
-.register {
+.register{
   background: linear-gradient(#AB88FF, #F0134D);
   display: flex;
   align-items: center;
@@ -25,8 +22,7 @@ header img {
   padding: 0px 30px;
   min-height: calc(100vh - 200px);
 }
-
-.register__container {
+.register__container{
   background-color: #ffffff1a;
   border: 2px white solid;
   border-radius: 40px;
@@ -37,102 +33,89 @@ header img {
   justify-content: space-around;
   flex-direction: column;
 }
-
-.register__container--form {
+.register__container--form{
   display: flex;
   flex-direction: column;
   margin-top: -150px;
 }
-
-.register__container--login {
-  display: flex;
+.register__container--login{
+  display:flex;
   justify-content: center;
   font-weight: bold;
   width: 100%;
   height: 50px;
   margin-top: 80px;
 }
-
-.register__container--login a {
+.register__container--login a{
   color: white;
   font-size: 15px;
   text-decoration: none;
 }
-
-.register__container--login a:hover {
+.register__container--login a:hover{
   text-decoration: underline;
 }
-
-.input {
+.input{
   background-color: transparent;
   border-left: 0px;
   border-right: 0px;
   border-top: 0px;
   border-bottom: 2px solid white;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 19px;
-  color: white;
+  color:white;
   margin-bottom: 20px;
   padding: 0px 20px;
-  outline: none;
+  outline:none;
   height: 50px;
 }
-
-::placeholder {
+::placeholder{
   color: white;
 }
-
-.register__container--login > div > a {
+.register__container--login > div > a{
   align-items: center;
+
 }
 
-.button {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: none;
+.button{
+  background-color: rgba(255,255,255,0.1);
+  border:none;
   border-radius: 25px;
   color: white;
   cursor: pointer;
   font-size: 19px;
   font-weight: bold;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   height: 50px;
   letter-spacing: 1px;
   margin: 10px 0px;
 }
-
-.footer {
+.footer{
   display: flex;
   align-items: center;
   height: 100px;
   width: 100%;
   background-color: #F0134D;
 }
-
-.footer a {
-  color: white;
+.footer a{
+  color:white;
   cursor: pointer;
   text-decoration: none;
   font-size: 15px;
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   padding-left: 30px;
 }
-
-.footer a:hover {
+.footer a:hover{
   text-decoration: underline;
 }
-
-@media only screen and (max-width: 600px) {
-  .register__container {
+@media only screen and (max-width: 600px){
+  .register__container{
     background-color: transparent;
     border: none;
     padding: 0px;
-    width: 100%;
+    width:100%;
   }
-
-  .footer {
+  .footer{
     align-items: flex-start;
     flex-direction: column;
   }
 }
-
-/*# sourceMappingURL=registro.css.map */
