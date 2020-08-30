@@ -122,6 +122,10 @@ header img {
   letter-spacing: 1px;
   margin: 10px 0px;
 }
+.button a{
+  color: white;
+  text-decoration: none;
+}
 
 .footer {
   display: flex;

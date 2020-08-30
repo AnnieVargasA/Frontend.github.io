@@ -100,6 +100,11 @@ header img {
   margin: 10px 0px;
 }
 
+.button a{
+  color: white;
+  text-decoration: none;
+}
+
 .footer {
   display: flex;
   align-items: center;
