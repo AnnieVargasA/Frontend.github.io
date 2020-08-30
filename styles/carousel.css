@@ -1,6 +1,6 @@
 .carousel{
   width: 100%;
-  overflow: scroll; /*Overflow:scroll; genera un scroll lateral*/
+  overflow: hidden; /*Overflow:scroll; genera un scroll lateral*/
   padding: 30px;
   position: relative;
 }
